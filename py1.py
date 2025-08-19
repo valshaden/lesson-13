@@ -14,13 +14,14 @@ import os
 #folders = "folder/" * 1024
 #os.makedirs(folders, exist_ok=True)
 #os.removedirs(folders)
-# os.chdir("c:/")
+#os.chdir("c:/")
 
-print("текущее положение на диске", os.getcwd())
-# folders = "folder/" * 2
-# os.makedirs(folders, exist_ok=True)
+#print("текущее положение на диске", os.getcwd())
+#folders = "folder/" * 2
+#os.makedirs(folders, exist_ok=True)
 
-# os.replace("old.txt", "C:\\W25\\!REPETITOR\\python-odin\\PRACTICE\\lesson-12\\new.txt")
+#os.replace("old.txt", "C:\\W25\\!REPETITOR\\python-odin\\PRACTICE\\lesson-12\\new.txt")
+#os.replace("old.txt", r"C:\W25\!REPETITOR\python-odin\PRACTICE\lesson-12\new.txt")
 
 #x = 123
 
@@ -28,20 +29,36 @@ print("текущее положение на диске", os.getcwd())
 
 #fr'hello world'
 
-# print(os.listdir(".."))
+#print(os.listdir(".."))
 # os.chdir("..")
 
 # print(*os.walk("."))
 
-# for x in os.listdir():
-#     print(x)
+#for x in os.listdir(r"c:\users"):
+#    print(x)
+#for x in os.listdir("c:/users"):
+#    print(x)
 
-# for _, _, filenames in os.walk("c:\\"):
-#     for filename in filenames:        
-#         print(filename, end=", ") if filename.endswith(".py") else ...
+#os.chdir("..")
+#for x in os.listdir():
+#    print(x)
 
-#d = {
-#    "f": lambda x : x ** 2
-#}
+os.chdir("..")
+#print(*os.walk("."))
 
-#print(os.stat("p1.py"))
+#for x in os.walk("."):
+#    print(x)
+
+#for dirpath, dirnames, filenames in os.walk("."):
+#    print(dirpath, dirnames, filenames) in os.walk(".")
+#    print(x)
+
+#for _, _, filenames in os.walk("c:/"):
+#    for filename in filenames:        
+#        print(filename, end=", ") if filename.endswith(".py") else ...
+
+d = {
+    "f": lambda x : x ** 2
+}
+
+print(os.stat("p1.py"))
