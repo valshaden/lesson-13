@@ -19,11 +19,14 @@ import subprocess
 #subprocess.call("python", "p1.py")
 #print("p1.py вернул", code)
 
-path.append("C:/")
-print(path)
+#path.append("C:/")
+#print(path)
 
-#if platform == "win32":
-#    subprocess.call("mspaint")
-#elif platform.startswith("linux"):
-#    subprocess.call("gnome-calculator")
-#    subprocess.Popen(["ls -l"])
+#subprocess.call("calc")
+
+if platform == "win32":
+    subprocess.call("calc")
+elif platform.startswith("linux"):
+    subprocess.call("gnome-calculator")
+    subprocess.Popen(["ls -l"])
+
