@@ -27,3 +27,5 @@ try:
     shutil.copy("txt3.txt", "backup")
 except FileNotFoundError:
     print("файле не найден")
+    
+    
