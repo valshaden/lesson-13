@@ -4,19 +4,19 @@ import os
 #os.mkdir("new_folder")
 #os.rmdir("new_folder")
 #os.rename("new.txt", "old.txt")
-if os.path.exists("old.txt"):
-    print("File exists")
-    os.remove("old.txt")
-else:
-    print("File does not exist")
-    open("old.txt", "w").close()
+#if os.path.exists("old.txt"):
+#    print("File exists")
+#    os.remove("old.txt")
+#else:
+#    print("File does not exist")
+#    open("old.txt", "w").close()
 
-
-# os.makedirs(folders, exist_ok=True)
-# os.removedirs(folders)
+#folders = "folder/" * 1024
+#os.makedirs(folders, exist_ok=True)
+#os.removedirs(folders)
 # os.chdir("c:/")
 
-#print("текущее положение на диске", os.getcwd())
+print("текущее положение на диске", os.getcwd())
 # folders = "folder/" * 2
 # os.makedirs(folders, exist_ok=True)
 
