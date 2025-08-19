@@ -5,17 +5,17 @@ import shutil
 
 #shutil.copy2("txt.txt", "txt11.txt") # копирование с сохранением метаданных
 
-shutil.copytree("sub_dir", "new_folder-1")
-# shutil.copytree("..", "new_folder-2")
+#shutil.copytree("sub_dir", "new_folder-1")
+#shutil.copytree("..", "new_folder-2")
 
-# shutil.rmtree("new_folder-2")
+#shutil.rmtree("new_folder-2")
 
-# shutil.move("txt.txt", "sub_dir//txt2.txt")
+#shutil.move("txt.txt", "sub_dir//txt2.txt")
 
-# shutil.make_archive("archive", "zip", "sub_dir")
-# shutil.make_archive("archive", "gztar", "sub_dir")
+#shutil.make_archive("archive", "zip", "sub_dir")
+#shutil.make_archive("archive", "gztar", "sub_dir")
 
-# shutil.unpack_archive("archive.tar.gz", "new_folder-4")
+shutil.unpack_archive("archive.tar.gz", "new_folder-4")
 
 # usage = shutil.disk_usage("c:\\")
 # print(usage)
