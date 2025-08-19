@@ -7,14 +7,20 @@ import subprocess
 #print(version)
 #print(platform)
 #print(argv[1], argv[2] +"!")
-print(executable)
+
+#print(executable)
+
 #print("Точка выхода")
 #exit('0')
 #subprocess.run("python --version")
 #subprocess.call("python --version")
-code = subprocess.call(["python", "p1.py"])
+
+#code = subprocess.call(["python", "p1.py"])
 #subprocess.call("python", "p1.py")
-print("p1.py вернул", code)
+#print("p1.py вернул", code)
+
+path.append("C:/")
+print(path)
 
 #if platform == "win32":
 #    subprocess.call("mspaint")
